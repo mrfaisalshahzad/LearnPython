@@ -11,7 +11,7 @@ d = d["tom"]
 print(d)
 """
 
-# Changing value of a Key in Dictionary
+# Changing value of a  Key in Dictionary
 """
 d = {"tom":4654654, "joe":189464, "flip":35469646}
 d["tom"] = 4765765
