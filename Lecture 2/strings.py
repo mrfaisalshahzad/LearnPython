@@ -1,4 +1,5 @@
 #String is data type that stores a sequence of characters.
+#Strings are immutable (non changable)
 
 str1 = "this is a string."
 str2 = 'this is a string'
