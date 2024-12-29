@@ -1,9 +1,9 @@
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+n = int(input("Enter number :"))
 
-i = 1
-
-while i <= 10 :
-    if(i % 2 != 0):
-        i += 1
-        continue
-    print(i)
-    i += 1
+for val in list:
+    if(n == val):
+        print("number found at idx", list.index(val))
+        break
+    else:
+        print("finding...")

@@ -1,3 +1,6 @@
+#for loops are used for sequential traversal. For traversing list string, tuples ets
+#for el in list:
+
 
 """
 bad example
@@ -67,3 +70,35 @@ i = 1
 while i <= 5:
     print(i)
     i = i +1
+
+
+#use of for loop in list/tuple/character
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+for val in list:
+    print(val)
+
+
+
+str = "Faisal Shahzad"
+
+for char in str:
+    if(char == "l"):
+        break
+    else:
+        print(char)
+
+print("end of loop")
+
+
+#using Break or continue in for loop 
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+n = int(input("Enter number :"))
+
+for val in list:
+    if(n == val):
+        print("number found at idx", list.index(val))
+        break
+    else:
+        print("finding...")
+
