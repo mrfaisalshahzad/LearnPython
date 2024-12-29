@@ -1,3 +1,6 @@
+#dictionaries are used to store data values in key:value pairs
+#They are unordered, mutable (changeable) & don't allow duplicate keys
+
 # Defining  a Dictionary
 """
 d = {"tom":4654654, "joe":189464, "flip":35469646}
