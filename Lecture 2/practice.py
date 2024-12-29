@@ -12,7 +12,7 @@ print(Amount.count("$"))
 #wpa if a number entered by a user is odd or even
 number = int(input("Enter number: "))
 
-if(number % 90  == 0):
+if(number % 2  == 0):
     print("Number is = Even")
 else:
     print("Number= Odd")
