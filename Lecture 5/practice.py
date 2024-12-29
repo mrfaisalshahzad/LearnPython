@@ -110,3 +110,62 @@ while i <= 10 :
         continue
     print(i)
     i += 1
+
+#Range
+
+for i in range(1,101):
+    print(i)
+
+for i in range(100, 0, -1):
+    print(i)
+
+#table
+n = int(input("Enter number"))
+
+for i in range(1, 11):
+    print(i , "*", n, "=", i * n)
+
+
+#Pass
+for i in range(5):
+    pass
+
+print("someting useful")
+
+
+
+#wap to find the sum of  natural numbers useing for loop
+
+n = 7
+sum = 0
+
+for i in range(1, n+1):
+    sum += i 
+
+print("Total is ", sum)
+
+
+#wap to find the sum of  natural numbers useing while loop
+
+n = 7
+sum = 0
+i = 1
+
+while i <= n:
+    sum += i
+    i += 1
+
+print("Total is ", sum)
+
+
+#wap for find the factorial of first n numbers using For loop
+
+n = 7
+fact = 1
+
+for i in range(1, n+1):
+    fact *= i 
+
+print("Factorial of", n, "is =", fact)
+
+
