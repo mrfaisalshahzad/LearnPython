@@ -7,6 +7,12 @@ d = {"tom":4654654, "joe":189464, "flip":35469646}
 print(d)
 """
 
+#Empty dictionary
+
+d = {}
+
+print(type(d))
+
 # Accessing a key in dictionary
 """
 d = {"tom":4654654, "joe":189464, "flip":35469646}
