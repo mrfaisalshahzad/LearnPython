@@ -57,3 +57,94 @@ d = {"tom":4654654, "joe":189464, "flip":35469646}
 d.clear()
 print(d)
 """
+
+# Nested Dictionaries
+
+student = {
+    "name" : "faisal shahzad",
+    "subjects" : {
+        "phy" : 97,
+        "chem" : 75,
+        "mat" : 87
+    }
+}
+
+print(student)
+print(student["subjects"])
+print(student["subjects"]["phyc"])
+
+
+# Dictionary Methods
+
+# mydict.keys()  returns all keys
+student = {
+    "name" : "faisal shahzad",
+    "subjects" : {
+        "phy" : 97,
+        "chem" : 75,
+        "mat" : 87
+    }
+}
+
+print(student.keys())
+print(list(student.keys()))
+print(len(student))
+print(len(list(student.keys())))
+
+# mydict.values()  returns all values
+student = {
+    "name" : "faisal shahzad",
+    "subjects" : {
+        "phy" : 97,
+        "chem" : 75,
+        "mat" : 87
+    }
+}
+
+print(student.values())
+print(list(student.values()))
+
+
+# mydict.items()  returns all (key, val) pairs as tuples
+student = {
+    "name" : "faisal shahzad",
+    "subjects" : {
+        "phy" : 97,
+        "chem" : 75,
+        "mat" : 87
+    }
+}
+
+print(student.items())
+print(list(student.items()))
+pairs = list(student.items())
+print(pairs[1])
+
+#mydict.get("key")  returns the key according to value
+student = {
+    "name" : "faisal shahzad",
+    "subjects" : {
+        "phy" : 97,
+        "chem" : 75,
+        "mat" : 87
+    }
+}
+
+print(student["name"])
+print(student.get("name"))
+print(student["name2"])  #returns error if key is not available
+print(student.get("name2"))  #returns no error -> None
+
+
+#mydict.update(newdict)  inserts the specified items to the dictionary
+student = {
+    "name" : "faisal shahzad",
+    "subjects" : {
+        "phy" : 97,
+        "chem" : 75,
+        "mat" : 87
+    }
+}
+
+student.update({"city" : "riyadh", "age" : 18})  #if updated with same key and different value, then it will replace orignal value of the key.
+print(student)
