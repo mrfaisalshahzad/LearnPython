@@ -1,9 +1,79 @@
-#Functions are block of statements that perform a specific task
+#Functions are block of statements that perform a specific task. Functions help reduce redundancy in code.
 #def func_name(param1, param2,,):
 #   some code
 #   return value
 
-#
+#func_name(arg1, arg2,,)  #Calling a function
+#Example of a function
+
+def  calcSum(a, b):  #a, b are parameters
+    sum = a + b
+    print(sum)
+    return sum
+
+calcSum(10, 5)  #function call, and 10, 5 are arguments
+
+
+#function definition
+def calc_sum(a, b):  #parameters
+    return a + b
+
+sum = calc_sum(1, 2)  #function arguments
+print(sum)
+
+
+
+def print_hello():
+    print("Hello")
+
+print_hello()
+print_hello()
+print_hello()
+
+
+
+def print_hello():
+    print("Hello")
+
+output = print_hello()
+print(output)
+
+
+#average of 3 numbers  # 2, 3, 4
+
+def calcavg(a, b, c):
+    sum = a + b + c
+    avg = sum / 3
+    print(avg)
+    return avg
+
+calcavg(98, 97, 95)
+
+
+#Types of functions, builtin functions, and user-defined functions
+#builtin functions eg. print(), input(), len(), type(), id(), etc
+
+print("faiasl shahzad","adil shahzad", end= " ")  #sep = " " by default, end = " " means no new line
+print("adil shahzad")  #end = "\n" by default
+#print("faiasl shahzad","adil shahzad", sep = ",")
+
+
+#Default parameters in functions
+#Assigning a default value to a parameter, which is used when no argument is passed to the function.
+
+def cal_prid(a=1, b=1):
+    print(a * b)
+    return a * b
+
+cal_prid()
+
+
+def cal_prid(a, b=8):
+#def cal_prid(a=8, b):  non-default argument follows default argument means default argument should be at the end.
+    print(a * b)
+    return a * b
+
+cal_prid(1)
 
 
 """
