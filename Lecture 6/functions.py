@@ -1,3 +1,11 @@
+#Functions are block of statements that perform a specific task
+#def func_name(param1, param2,,):
+#   some code
+#   return value
+
+#
+
+
 """
 Here we are repeating coding lines
 
