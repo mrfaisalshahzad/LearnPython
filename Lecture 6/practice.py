@@ -57,3 +57,26 @@ def odd_even(n):
     
 odd_even(number)
 
+
+# waf to calculate the sum of n natural numbers. (n is the parameter)
+
+def cal_sum(n):
+    if(n == 0):
+        return 0
+    return cal_sum(n-1) +n
+
+print(cal_sum(5))
+
+
+# write a recursive function to print the elements of a list in a single line. (list is the parameter)
+
+marks = [94.4, 87.5, 95.2, 66.4, 45.1]
+
+def print_element(list, idx=0):
+    if(idx == len(list)):
+        return
+    print(list[idx], end= " ")
+    print_element(list, idx+1)
+
+print_element(marks)
+print()

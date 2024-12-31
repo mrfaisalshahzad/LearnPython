@@ -1,11 +1,12 @@
-#waf to check if a number is odd or even. (number is the parameter)
+# write a recursive function to print the elements of a list in a single line. (list is the parameter)
 
-number = 22
+marks = [94.4, 87.5, 95.2, 66.4, 45.1]
 
-def odd_even(n):
-    if(n%2 == 0):
-        print(n, "is even")
-    else:
-        print(n, "is odd")
-    
-odd_even(number)
+def print_element(list, idx=0):
+    if(idx == len(list)):
+        return
+    print(list[idx], end= " ")
+    print_element(list, idx+1)
+
+print_element(marks)
+print()
