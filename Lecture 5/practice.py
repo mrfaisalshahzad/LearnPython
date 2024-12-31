@@ -169,3 +169,11 @@ for i in range(1, n+1):
 print("Factorial of", n, "is =", fact)
 
 
+#Create a program to print the following pattern
+
+set = ""
+
+for i in range(0, 11, 1):
+    if(i <= 11):
+        set += str(i) + " "
+        print(set)

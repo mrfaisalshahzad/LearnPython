@@ -70,10 +70,13 @@ with open("LearnPython/Lecture 7/practice1.txt", "r") as f:
 # num = ""
 # for i in range(len(data)):
 #     if(data[i] == ","):
-#         print(num)
+#         print(num.strip()) # Print number without leading or trailing spaces
 #         num = ""
 #     else:
 #         num += data[i]
+
+# if num.strip(): # Print the last number
+#     print(num.strip())
 
 count = 0
 num = data.split(", ")
