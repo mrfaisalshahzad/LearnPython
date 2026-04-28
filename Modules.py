@@ -12,7 +12,7 @@ import Functions_for_Modules as f
 print(Functions_for_Modules.calc_square_area(5))
 """
 
-from Functions_for_Modules import *
+from LearnPython.Functions_for_Modules import *
 print(calc_square_area(5))
 print(calc_triangle_area(5,3))
 

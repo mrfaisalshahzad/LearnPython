@@ -58,3 +58,5 @@ print(tup.index(2))
 #tup.count(el)  counts total occurrences
 tup = (2, 3, 2, 5)
 print(tup.count(2))
+
+# major meethods of tuple with their description:
